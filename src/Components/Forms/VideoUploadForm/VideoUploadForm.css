@@ -10,9 +10,15 @@
     color: var(--ytcp-text-secondary);
 }
 
-h4{
-    margin-bottom: 1%;
+h5{
+    margin: 0;
 }
+
+.visPar{
+    margin: 0;
+    padding: 0;
+}
+
 
 
 #radioGroupID{
@@ -29,8 +35,7 @@ h4{
     display: inline-flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 0;
-    margin: 0;
+    
 }
 
 
@@ -47,10 +52,18 @@ h4{
 }
 
 #iframeID{
-    transform: translateY(60px);
-    width:60%;
+    transform: translateY(20px);
+    margin-left: 1%;
+    width:35%;
     height:50vh;
     display:flex;
-    /* border:1px solid black; */
 }
 
+.subPar{
+    font-size:smaller;
+}
+
+
+#navButtons:hover{
+    background-color: transparent;
+}

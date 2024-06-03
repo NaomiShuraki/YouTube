@@ -20,7 +20,6 @@ import './VideoUploadForm.css'
 import { VideoType } from '../../../Types/VideoType';
 import { useAppDispatch, useAppSelector } from '../../../app/hooks';
 import { selectVideoId, setVideoDescription, setVideoIsForKids, setVideoTitle } from '../../../features/uploadVideo/uploadVideoSlice';
-import { uploadVideoToFirebase } from '../../../Services/videos/videosDB';
 import { useNavigate } from 'react-router-dom';
 
 export default function VideoUploadForm() {

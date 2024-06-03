@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { uploadVideoToFirebase } from "../../../Services/videos/videosDB";
+import {uploadVideoToFirebase} from "../../../Services/Videos/videosDB"
 import { useAppSelector } from "../../../app/hooks"
 import { selectVideo } from "../../../features/uploadVideo/uploadVideoSlice"
 import { Button } from "@mui/joy";
